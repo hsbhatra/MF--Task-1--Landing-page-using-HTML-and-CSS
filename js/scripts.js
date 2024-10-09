@@ -19,7 +19,7 @@ backToTopButton.addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// Show button when scrolling down
+// Show 'Back to Top Button' when scrolling down
 window.onscroll = function() {
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
         backToTopButton.style.display = "block";
